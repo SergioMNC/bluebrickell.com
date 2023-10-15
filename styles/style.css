@@ -1,0 +1,42 @@
+html {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(194, 178, 128);
+  }
+body {
+  width: 33%;
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+  border: 3px solid black;
+}
+/* Element selector */
+a {
+    color: black;d
+    size: 15px; 
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+  }
+/* class */
+.p-class {
+    width: 500px;
+    border: 1px;
+}
+/* id selector */
+#my-title {
+    font-size: 100px;
+}
+/* Attribute */
+[id="my-color"] {
+    color: black;
+}
+/* pseudo-attribute */
+a:hover {
+    color:red;
+    font-size: 30px;
+}
+img:hover {
+    border: 2px solid black;
+}
