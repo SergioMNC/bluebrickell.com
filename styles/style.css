@@ -1,7 +1,8 @@
 html {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(34, 53, 34);
+    text-align: center;
   }
 body {
   width: 33%;
@@ -39,4 +40,7 @@ a:hover {
 }
 img:hover {
     border: 2px solid black;
+}
+h2 {
+    
 }
