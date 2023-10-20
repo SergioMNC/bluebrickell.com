@@ -22,7 +22,6 @@ img {
   }
 /* class */
 .p-class {
-    width: 500px;
     border: 1px;
 }
 /* id selector */
@@ -40,7 +39,4 @@ a:hover {
 }
 img:hover {
     border: 2px solid black;
-}
-h2 {
-    
 }
