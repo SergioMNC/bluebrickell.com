@@ -20,6 +20,18 @@ myButton.onclick = () => {
 };
 
 */
+const myImage = document.querySelector("img");
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/logo.jpg"){
+    myImage.setAttribute("src", "images/OIG.jpg");
+  } else {
+    myImage.setAttribute("src", "images/logo.jpg")
+  }
+};
+
+
+
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
@@ -40,7 +52,7 @@ if(!localStorage.getItem('name')) {
   myHeading.innerHTML = 'WELCOME TO POKER GODS, ' + storedName;
 }
 
-myButton.onclick = function() {
+myButton.onclick = () => {
   setUserName();
 }
 
