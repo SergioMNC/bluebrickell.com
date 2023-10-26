@@ -65,7 +65,7 @@ function example(parameter1, parameter2) {
 //The argument order within the function call should be the same as the parameters order in the func definition
 
 //This fucntion multiplies arguments; must call function
-function mult(n1 ,n2){
+function multiply(n1 ,n2){
   let result = n1 * n2;
   return result;
 }

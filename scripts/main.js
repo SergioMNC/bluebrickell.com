@@ -20,28 +20,28 @@ myButton.onclick = () => {
 };
 
 */
-const myImage = document.querySelector("img");
+let myImage = document.querySelector("img");
 myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
+  let mySrc = myImage.getAttribute("src");
   if (mySrc === "images/logo.jpg"){
     myImage.setAttribute("src", "images/OIG.jpg");
   } else {
     myImage.setAttribute("src", "images/logo.jpg")
   }
-};
+}
 
-
+//personalized welcome message
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-  let myName = prompt('Whats your name');
+  let myName = prompt('Please enter your name.');
   if(!myName) {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'WELCOME TO POKER GODS, ' + myName;
+    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
   }
 }
 
@@ -49,12 +49,13 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'WELCOME TO POKER GODS, ' + storedName;
+  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
 }
 
-myButton.onclick = () => {
+myButton.onclick = function() {
   setUserName();
 }
+
 
 let myName = "sergio";
 console.log(myName);
