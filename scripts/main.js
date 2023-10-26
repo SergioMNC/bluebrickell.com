@@ -28,7 +28,7 @@ myImage.onclick = () => {
   } else {
     myImage.setAttribute("src", "images/logo.jpg")
   }
-}
+}o
 
 //personalized welcome message
 
@@ -55,10 +55,6 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
-
-
-let myName = "sergio";
-console.log(myName);
 
 //String
 let myVariable = "Blue";
