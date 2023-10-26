@@ -28,7 +28,7 @@ myImage.onclick = () => {
   } else {
     myImage.setAttribute("src", "images/logo.jpg")
   }
-}o
+}
 
 //personalized welcome message
 
