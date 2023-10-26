@@ -80,14 +80,3 @@ document.querySelector('p').addEventListener("click", () => {
 document.querySelector('h2').addEventListener("click", function() {
   alert(array)
 })
-
-//pics shuffler
-const myImage = document.querySelector("img");
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/logo.jpg"){
-    myImage.setAttribute("src", "images/OIG.jpg");
-  } else {
-    myImage.setAttribute("src", "images/logo.jpg")
-  }
-};
