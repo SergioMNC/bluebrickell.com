@@ -20,19 +20,10 @@ myButton.onclick = () => {
 };
 
 */
-let myImage = document.querySelector("img");
-myImage.onclick = () => {
-  let mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/logo.jpg"){
-    myImage.setAttribute("src", "images/OIG.jpg");
-  } else {
-    myImage.setAttribute("src", "images/logo.jpg")
-  }
-}
+let myImage = 
 
 //personalized welcome message
 
-let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -57,7 +48,6 @@ myButton.onclick = function() {
 }
 
 
-  
-  
+
   
 
