@@ -1,11 +1,9 @@
 body{
     background-color: antiquewhite;
 }
-div{
+.container{
     background-color: aqua;
 }
-
-
 .hamburger{
     position: relative;
     display : block;
