@@ -5,3 +5,7 @@ html {
 ol {
     list-style: upper-roman;
   }
+
+.nav-button {
+     color: red;
+}
